@@ -16,6 +16,7 @@ export const links: LinksFunction = () => [
     rel: "stylesheet",
     href: "/app/tailwind.css",
   },
+  { rel: "icon", href: "/assets/favicon.png" },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
@@ -24,7 +25,7 @@ export const links: LinksFunction = () => [
   },
   {
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+    href: "https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap",
   },
 ];
 
