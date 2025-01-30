@@ -6,6 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        quicksand: ["Quicksand", "sans-serif"],
+        varela: ["Varela Round", "sans-serif"],
         sans: [
           "Inter",
           "ui-sans-serif",

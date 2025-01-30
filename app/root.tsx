@@ -25,7 +25,7 @@ export const links: LinksFunction = () => [
   },
   {
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap",
+    href: "https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Varela+Round&display=swap",
   },
 ];
 
@@ -38,7 +38,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="font-quicksand">
         {children}
         <ScrollRestoration />
         <Scripts />
