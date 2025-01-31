@@ -4,8 +4,8 @@ export default function Hero() {
   return (
     <section className="flex items-center justify-between rounded-xl bg-secondary px-20">
       <div className="flex flex-col items-start space-y-10">
-        <span className="text-7xl font-bold">
-          Healthy Choices,
+        <span className="text-primaryText text-7xl font-bold">
+          Best Choices,
           <br /> Delivered Fast
         </span>
         <Button size={"lg"} className="rounded-full text-lg">

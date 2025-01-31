@@ -65,6 +65,8 @@ export default {
           "4": "hsl(var(--chart-4))",
           "5": "hsl(var(--chart-5))",
         },
+        primaryText: "hsl(var(--primary-text))",
+        secondaryText: "hsl(var(--secondary-foreground))",
       },
     },
   },

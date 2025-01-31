@@ -1,5 +1,6 @@
 import { Outlet } from "@remix-run/react";
 
+import Footer from "./footer";
 import Header from "./header";
 
 export default function LayoutMain() {
@@ -9,7 +10,7 @@ export default function LayoutMain() {
       <div className="flex-1">
         <Outlet />
       </div>
-      <footer>Footer</footer>
+      <Footer />
     </div>
   );
 }
