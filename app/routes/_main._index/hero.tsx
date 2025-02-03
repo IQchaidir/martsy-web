@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="flex items-center justify-between rounded-xl bg-secondary px-20">
       <div className="flex flex-col items-start space-y-10">
-        <span className="text-primaryText text-7xl font-bold">
+        <span className="text-7xl font-bold text-primaryText">
           Best Choices,
           <br /> Delivered Fast
         </span>
@@ -13,7 +13,7 @@ export default function Hero() {
         </Button>
       </div>
       <img
-        src="/assets/hero-image.png"
+        src="/public/assets/hero-image.png"
         alt="hero-image"
         className="mt-5 h-96 w-96"
       />

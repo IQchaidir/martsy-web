@@ -8,7 +8,11 @@ export default function Header() {
     <header>
       <div className="wrapper sticky top-0 flex items-center justify-between border-b-2 py-6 shadow-md">
         <Link to={"/"}>
-          <img src="/assets/logo.png" alt="logo" className="h-auto w-44" />
+          <img
+            src="/public/assets/logo.png"
+            alt="logo"
+            className="h-auto w-44"
+          />
         </Link>
         <Form
           method="get"
