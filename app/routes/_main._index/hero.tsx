@@ -12,11 +12,7 @@ export default function Hero() {
           Shop now
         </Button>
       </div>
-      <img
-        src="/public/assets/hero-image.png"
-        alt="hero-image"
-        className="mt-5 h-96 w-96"
-      />
+      <img src="/hero-image.png" alt="hero-image" className="mt-5 h-96 w-96" />
     </section>
   );
 }
